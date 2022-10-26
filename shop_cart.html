@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/chekout.css">
+    <link rel="stylesheet" href="/css/shop_cart.css">
+    <script src="https://kit.fontawesome.com/fca25e28ed.js" crossorigin="anonymous"></script>
+    <title>Корзина</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row-top">
+                <div class="nav__logo">
+                    <a href=""><img class="logo-img" src="/img/header/logo.png" alt="logo"></a>
+                </div>
+
+                <form action="" class="search-form">
+                    <select name="search" id="" class="search_list">
+                        <option value="">Поиск</option>
+                        <option value="">Другой поиск</option>
+                        <option value="">Ещё функция</option>
+                    </select>
+                    <input type="text" class="search_field" placeholder="Поиск товара">
+                    <button class="search__btn">
+                        <img src="/img/header/search_icon.svg" alt="search">
+                    </button>
+                </form>
+                <div class="nav-actions">
+                    <div class="nav__cart">
+                        <a href="#"><img src="/img/header/nav_Cart.svg" alt=""></a>
+                    </div>
+    
+                    <div class="nav__button"> 
+                        <select name="My Account" id="" class="search_list">
+                            <option value="">Аккаунт</option>
+                            <option value="">Доставка</option>
+                            <option value="">Настройки</option>
+                        </select>
+                    </div>
+                </div>   
+            </div>
+
+            <hr class="nav__line">
+            
+            <div class="nav__row-bottom">
+                <div class="nav__list-holder">
+                    <ul class="nav-list">
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">Крупная техника</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">Для дома</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">Аудио и видео системы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">Компьютеры</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">Аксессуары</a>
+                        </li>     
+                        <li class="nav__item">
+                            <a href="#" class="nav-link">Спец. предложения</a>
+                        </li>     
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <header class="header__chekout-page">
+            <div class="container">
+                <div class="header-wrapper">
+                    <h1 class="header__text">ДОСТУПНЫ СКИДКИ!</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="chekout.html">Доставка</a></li>
+                        <li><a href="" class="chk__active">Акции</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class="cart">
+            <div class="container">
+                <div class="cart__wrapper">
+                    <table class="buy_table">
+                        <tr class="table__header" style="height: 50px;">
+                            <th style="text-align: left;">ДЕТАЛИ</th>
+                            <th>СТОИМОСТЬ 1 ШТ</th>
+                            <th>КОЛ-ВО</th>
+                            <th>ДОСТАВКА</th>
+                            <th>В СУММЕ</th>
+                            <th>УБРАТЬ</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex;">
+                                    <img src="/img/products/1.jpg" alt="" style="height: 130px;">
+                                    <div class="buy_descr">
+                                        <h4 style="margin-bottom: 50px;">Блендер</h4>
+                                        <span class="thing_params">
+                                            <p style="font-weight: 200;"><b>Цвет: </b>White</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="price-unit">$150</td>
+                            <td class="table-input">
+                                <input type="text" name="" id="" style="width: 60px; height: 25px;">
+                            </td>
+                            <td class="price-unit">Бесплатно</td>
+                            <td class="price-unit">$300</td>
+                            <td>
+                                <button class="transparent_btn"><img src="/img/del_icon.png" alt=""></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex;">
+                                    <img src="/img/products/2.jpg" alt="" style="height: 130px;">
+                                    <div class="buy_descr">
+                                        <h4 style="margin-bottom: 50px;">Гриль</h4>
+                                        <span class="thing_params">
+                                            <p style="font-weight: 200;"><b>Цвет: </b>Black</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="price-unit">$150</td>
+                            <td class="table-input">
+                                <input type="text" name="" id="" style="width: 60px; height: 25px;">
+                            </td>
+                            <td class="price-unit">Бесплатно</td>
+                            <td class="price-unit">$300</td>
+                            <td>
+                                <button class="transparent_btn"><img src="/img/del_icon.png" alt=""></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display: flex;">
+                                    <img src="/img/products/3.jpg" alt="" style="height: 130px;">
+                                    <div class="buy_descr">
+                                        <h4 style="margin-bottom: 50px;">Холодильник</h4>
+                                        <span class="thing_params">
+                                            <p style="font-weight: 200;"><b>Цвет: </b>Beige</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="price-unit">$150</td>
+                            <td class="table-input">
+                                <input type="text" name="" id="" style="width: 60px; height: 25px;">
+                            </td>
+                            <td class="price-unit">Бесплатно</td>
+                            <td class="price-unit">$300</td>
+                            <td>
+                                <button class="transparent_btn"><img src="/img/del_icon.png" alt=""></button>
+                            </td>
+                        </tr>
+                    </table>
+        
+                    <div class="shopping_buttons">
+                        <button class="shp-button price-unit" style="width: 250px;">ОЧИСТИТЬ КОРЗИНУ</button>
+                        <button class="shp-button price-unit" style="width: 250px;">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+                    </div>
+        
+                    <div class="payment__commit">
+                        <div class="pay__commit__block">
+                            <h4 class="shp__address__elem">АДРЕС ДОСТАВКИ</h4>
+                            <select name="" id="" class="shp__address__elem pay__commit-input">
+                                <option>Донецк</option>
+                                <option>Макеевка</option>
+                            </select>
+                            <input type="text" class="shp__address__elem pay__commit-input" name="" id="" placeholder="Район">
+                            <input type="text" class="shp__address__elem pay__commit-input" name="" id=""placeholder="Адрес">
+                            <button class="shp__address__elem shp-button" style="width: 130px;">ПОЛУЧИТЬ СКИДКУ</button>
+                        </div>
+                        <div class="pay__commit__block">
+                            <h4 class="shp__address__elem">ИСПОЛЬЗОВАТЬ КУПОН</h4>
+                            <h5 class="shp__address__elem">Введите код купона (6 символов)</h5>
+                            <input type="text" class="pay__commit-input shp__address__elem" name="" id="" placeholder="Код купона">
+                            <button class="shp-button" style="width: 200px;">ИСПОЛЬЗОВАТЬ</button>
+                        </div>
+                        <div class="pay__commit__block" id="buy__confirm">
+                            <div id="final">
+                                <h5 id="total__sum">В общей сумме: $900</h5>
+                                <br>
+                                <div id="combine__row">
+                                    <h4>С учёом скидок: <span>$900</span></h4>
+                                </div><br>
+                                <hr><b></b>
+                                <button  id="proceed">ЗАКАЗАТЬ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe-section">
+            <div class="container">
+               <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="item">
+                            <div class="sl-item"  id="sl1">
+                                <img class="sl__img" src="/img/subscribe/head-1.png" alt="slider">
+                                <div class="sl__text">
+                                    <q class="sl__quote">Спасибо Вам за Ваш замечательный магазин. Лучшие цены, приятный сервис, а главное -
+                                    быстрая доставка, блягодаря которой не нужно никуда ходить, особенно в наше неспокойное вермя. Спасибо Вам!</q>
+                                    <h6 class="sl__name"><span>Мария Иванова</span> <br> Донецк, ДНР</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-dots">
+                        <span class="slider-dots_item"></span> 
+                        <span class="slider-dots_item"></span> 
+                        <span class="slider-dots_item"></span> 
+                    </div>
+                </div>
+                <div class="container-feedback">
+                    <div class="subscribe-section-info">
+                        <h2 class="section-info__title">Подпищитесь!</h2>
+                        <div class="section-info__description">
+                            <h4> ДЛЯ НАШЕЙ РАССЫЛКИ С ВЫГОДНЫМИ ПРЕДЛОЖЕНИЯМИ И АКЦИЯМИ</h4>
+                        </div>
+                    </div>
+                    <div class="subscribe-form">
+                        <input placeholder="Ваш E-Mail" type="text" class="subscribe-form__input">
+                        <button class="subscribe-form__submit">Подписаться</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <div class="container">
+                <div class="info-section__wrapper">
+                    <div class="brand-info__row">
+                        <div class="info-section__logo">
+                            <a href=""><img class="logo-img" src="/img/header/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="info-section-text">
+                            <p>Интернет-магазин бытовой техники TehnoZoo предлагает клиентам большой ассортимент товаров по доступным ценам. 
+                            Также мы предоставляем бесплатную доставку по Донецку и Макеевке в приделах территории ДНР. 
+                            </p>
+                            <p>На всю бытовую технику даётся официальная гарантия. Мы стремимся предоставить клиентам комфортные условия покупки. 
+                            Вы всегда можете рассчитывать на профессиональную консультацию наших продавцов, которые ответят на все ваши вопросы.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="brand-info-column">
+                        <ul>
+                            <a href="#"><li class="info-column-header">Покупателю</li></a>
+                            <a href=""><li class="info-column-text"></li>Как зарегистрироваться</a>
+                            <a href=""><li class="info-column-text"></li>Как сделать заказ</a>
+                            <a href=""><li class="info-column-text"></li>О доставке</a>
+                            <a href=""><li class="info-column-text"></li>Самовывоз</a>
+                            <a href=""><li class="info-column-text"></li>Сервис и возврат</a>
+                            
+                        </ul>
+                        <ul>
+                            <a href="#"><li class="info-column-header">Информация</li></a>
+                            <a href=""><li class="info-column-text"></li>Магазины</a>
+                            <a href=""><li class="info-column-text"></li>Пункты выдачи</a>
+                            <a href=""><li class="info-column-text"></li>Контакты</a>
+                            <a href=""><li class="info-column-text"></li>Рассрочка</a>
+                            <a href=""><li class="info-column-text"></li>Гарантии</a>
+                        </ul>
+                        <ul>
+                            <a href="#"><li class="info-column-header">Компания</li></a>
+                            <a href=""><li class="info-column-text"></li>Поставщикам</a>
+                            <a href=""><li class="info-column-text"></li>Реклама</a>
+                            <a href=""><li class="info-column-text"></li>Аренда</a>
+                            <a href=""><li class="info-column-text"></li>Благотворительность</a>
+                            <a href=""><li class="info-column-text"></li>Партнёрство</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+           <div class="footer__wrapper">
+                <div class="footer__copyright">
+                    <p>© Все права защищены ООО "TehnoZoo" 2022</p>
+                </div>
+
+                <div class="footer__socials">
+                    <div class="links-wrapper">
+                        <a href="#fb" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#tw" class="tw"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#in" class="in"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#pin" class="pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                        <a href="#g+" class="gp"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </footer>
+</body>
+</html>
